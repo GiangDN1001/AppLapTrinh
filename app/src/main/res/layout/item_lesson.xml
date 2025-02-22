@@ -1,0 +1,34 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    android:elevation="4dp"
+    android:backgroundTint="#F8F8F8">
+
+    <!-- Tiêu đề bài học -->
+    <TextView
+        android:id="@+id/lesson_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lesson Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:paddingBottom="8dp" />
+
+    <!-- Mô tả bài học -->
+    <TextView
+        android:id="@+id/lesson_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lesson Description"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:paddingBottom="16dp" />
+
+</LinearLayout>
